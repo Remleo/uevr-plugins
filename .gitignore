@@ -1,0 +1,2 @@
+# Build output: every plugin builds into its own build\ folder, and only the DLL is copied into a game profile.
+build/
