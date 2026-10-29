@@ -8,3 +8,4 @@ Do not use `UnrealVRMod\UEVR\plugins` for this: UEVR loads whatever is there int
 | plugin | what it does | used by |
 |---|---|---|
 | `PipelineRefresh` | switches the pipeline state away and back before a draw that follows compute work with the same state; fixes STALKER 2's right eye being squeezed into the pre-upscale rectangle | STALKER 2 |
+| `SpritePlane` | gives both eyes' camera-facing sprites the head's plane under UEVR's canted projection; fixes smoke thinning in one eye as the head turns | The Outer Worlds 2 |
